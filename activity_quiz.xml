@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:background="@color/bg_quiz">
+
+    <!-- Question Number -->
+    <TextView
+        android:id="@+id/txtQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUESTION 1 OF 4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_primary"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Question Heading -->
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which language is used for Android app development?"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="18dp"/>
+
+    <!-- Options -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            android:textSize="17sp"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:background="@color/card_quiz"/>
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HTML"
+            android:textSize="17sp"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/card_quiz"/>
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQL"
+            android:textSize="17sp"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/card_quiz"/>
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHP"
+            android:textSize="17sp"
+            android:textColor="@color/text_primary"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/card_quiz"/>
+
+    </RadioGroup>
+
+    <!-- Feedback -->
+    <TextView
+        android:id="@+id/txtFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_primary"
+        android:gravity="center"
+        android:layout_marginTop="18dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="SUBMIT ANSWER"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_primary"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="NEXT QUESTION"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue_primary"
+        android:layout_marginTop="10dp"
+        android:enabled="false"/>
+
+</LinearLayout>

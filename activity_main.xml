@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@color/bg_quiz">
+
+    <!-- Main Heading -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ APP"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_primary"
+        android:gravity="center"
+        android:letterSpacing="0.05"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Your Knowledge"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Small Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenge yourself • Learn • Have fun"
+        android:textSize="14sp"
+        android:textColor="@color/blue_primary"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Main Button -->
+    <Button
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="START QUIZ"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_primary"
+        android:layout_marginTop="45dp"
+        android:elevation="6dp"/>
+
+</LinearLayout>
